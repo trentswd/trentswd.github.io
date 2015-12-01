@@ -40,6 +40,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="A Shred" type="application/atom+xml" />
 
@@ -55,12 +57,13 @@
 
 <meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content="A Shred">
-<meta property="og:url" content="http://trentswd.github.io/archives/index.html">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http://trentswd.github.io/tags/index.html">
 <meta property="og:site_name" content="A Shred">
 <meta property="og:description">
+<meta property="og:updated_time" content="2015-11-28T18:28:02.460Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="A Shred">
+<meta name="twitter:title" content="tags">
 <meta name="twitter:description">
 
 
@@ -73,7 +76,13 @@
   };
 </script>
 
-  <title> 归档 | A Shred </title>
+  <title>
+  
+
+  
+    标签 | A Shred
+  
+</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -94,7 +103,7 @@
 
 
 
-  <div class="container one-column  page-archive ">
+  <div class="container one-column ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -182,66 +191,19 @@
         <div id="content" class="content">
           
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 1 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
+    
+      <div class="tag-cloud">
+        <div class="tag-cloud-title">
+            目前共计 1 个标签
         </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2015/12/01/rpg-makar-mv-zh-cn/" itemprop="url">
-              
-                <span itemprop="name">RPG Maker MV 简体中文语言文件</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-12-01T23:31:59+09:00"
-              content="2015-12-01" >
-          12-01
-        </time>
+        <div class="tag-cloud-tags">
+          <a href="/tags/RPG-Maker-MV/" style="font-size: 12px; color: #ccc">RPG Maker MV</a>
+        </div>
       </div>
-
-    </header>
-  </article>
-
-
-
     
-
-  </section>
-
-  
-
+  </div>
 
 
         </div>
@@ -250,6 +212,14 @@
 
 
         
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+    
+  </div>
+
 
       </div>
 
@@ -367,12 +337,6 @@
 
   
   
-  
-    <script type="text/javascript">
-      postMotionOptions = {stagger: 100, drag: true};
-    </script>
-  
-
 
   
     
@@ -382,9 +346,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'trentswdgithubio';
-      var disqus_identifier = 'archives/index.html';
-      var disqus_title = '';
-      var disqus_url = '';
+      var disqus_identifier = 'tags/index.html';
+      var disqus_title = 'tags';
+      var disqus_url = 'http://trentswd.github.io/tags/index.html';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');
@@ -395,6 +359,8 @@
       }
 
       run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
       
     </script>
   
@@ -418,12 +384,6 @@
   <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
-
 
   <script type="text/javascript" src="/js/bootstrap.js"></script>
 

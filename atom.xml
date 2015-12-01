@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://trentswd.github.io/"/>
-  <updated>2015-04-24T03:18:39.000Z</updated>
+  <updated>2015-12-01T16:11:24.019Z</updated>
   <id>http://trentswd.github.io/</id>
   
   <author>
@@ -15,54 +15,63 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[中文测试]]></title>
-    <link href="http://trentswd.github.io/2015/04/24/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95/"/>
-    <id>http://trentswd.github.io/2015/04/24/中文测试/</id>
-    <published>2015-04-24T03:18:01.000Z</published>
-    <updated>2015-04-24T03:18:39.000Z</updated>
-    <content type="html"><![CDATA[<p>采菊东篱下，悠然见南山</p>
+    <title><![CDATA[RPG Maker MV 简体中文语言文件]]></title>
+    <link href="http://trentswd.github.io/2015/12/01/rpg-makar-mv-zh-cn/"/>
+    <id>http://trentswd.github.io/2015/12/01/rpg-makar-mv-zh-cn/</id>
+    <published>2015-12-01T14:31:59.000Z</published>
+    <updated>2015-12-01T16:11:24.019Z</updated>
+    <content type="html"><![CDATA[<h1 id="简介">简介</h1><p>RPG Maker MV官方并不支持中文，然而英文版的初版中附带有繁体中文的语言文件。在多语言补丁发布后，切换为繁体中文变成了可能。</p>
+<p>然而官方的繁体中文语言文件和原有的RPG Maker术语差距过大，甚至存在机翻的情况。因此我在使用软件将qm文件繁体转简体后，进行了手工修正。后续发觉英语原文意思和日文语言文件中的语句意思差距过大，因此开始根据日文语言文件进行校对。</p>
+<p>使用这个文件可以使RPG Maker MV的界面变成简体中文，并且修正了翻译上的一些问题。<br><a id="more"></a></p>
+<h1 id="正版可以用吗？">正版可以用吗？</h1><p>在Steam版上测试通过。</p>
+<h1 id="发现错误？">发现错误？</h1><p>请在评论中提出，如果确认有问题，将在下个版本中修改。</p>
+<h1 id="安装方法">安装方法</h1><ol>
+<li>下载安装多语言补丁。【<a href="http://rm.66rpg.com/thread-384658-1-1.html" target="_blank" rel="external">链接</a>】</li>
+<li>下载最新版，将压缩包的内容解压到RPG Maker MV的文件夹中，若有需要覆盖的文件，直接覆盖。</li>
+<li>打开RPG Maker MV，测试是否成功。</li>
+</ol>
+<h1 id="最新版下载">最新版下载</h1><p>下载链接：【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v1.3.zip">链接</a>】</p>
+<h1 id="更新日志">更新日志</h1><ul>
+<li>11/9 更新 v1.3 【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v1.3.zip">链接</a>】<ul>
+<li>受到上次启发，拿日文的qm文件来做比较，发现英文就是临时工翻译的，<br>所以根据日文的qm一个一个来校对了</li>
+<li>修改了攻击、普通攻击、攻击力等部分</li>
+<li>修改了回合的机翻等部分</li>
+<li>修改行走图、战斗图等部分</li>
+<li>回退了ON/OFF修改</li>
+<li>效果列表和特性列表里面英文翻译错误的地方（大量缺少率等）<br>按顺序校对了以下对话框：<br>EventCommandTexts<br>Constants<br>NewDataMaker（新工程文本，影响新工程的数据库，新建工程才能看见变化）<br>Group_ActionPatterns<br>Dialog_AnimationShift<br>Dialog_MapShift<br>Group_Location<br>Group_PicturePosition<br>MovementCommand14<br>Dialog_Action<br>Tab_DBTerms<br>EventCommands<br>DialogButtonBox<br>Group_Damage<br>Group_SystemMessages</li>
+<li>字体改成了微软雅黑</li>
+</ul>
+</li>
+<li>11/1 更新 v1.2 【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v1.2.zip">链接</a>】<ul>
+<li>参照 @死伤殆尽 和日文qm，修改了地图绘制部分、远景、防具、事件等部分的机翻</li>
+<li>参照 @机器灰 ，修改导入导出</li>
+</ul>
+</li>
+<li>10/31 更新 v1.1 【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v1.1.zip">链接</a>】<ul>
+<li>修改了一些零碎地方</li>
+<li>修改了Yes/No/ON/OFF没翻译的地方</li>
+<li>增加了 @orzfly 的粗体补丁</li>
+<li>增加了combox显示数据库ID的补丁</li>
+</ul>
+</li>
+<li>10/27 初版 v1.0 【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v1.0.zip">链接</a>】<ul>
+<li>官方的繁体翻译直接机器繁转简获得基准文件</li>
+<li>按照以前版本习惯修改一些用语</li>
+<li>大体上修改了框 -&gt; 帧、部队 -&gt; 敌群、类别 -&gt; 职业、剧情  -&gt; 事件，还有讯息贴上搜寻之类繁体词汇和一些零碎的地方</li>
+</ul>
+</li>
+</ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>采菊东篱下，悠然见南山</p>
-]]>
+    <![CDATA[<h1 id="简介">简介</h1><p>RPG Maker MV官方并不支持中文，然而英文版的初版中附带有繁体中文的语言文件。在多语言补丁发布后，切换为繁体中文变成了可能。</p>
+<p>然而官方的繁体中文语言文件和原有的RPG Maker术语差距过大，甚至存在机翻的情况。因此我在使用软件将qm文件繁体转简体后，进行了手工修正。后续发觉英语原文意思和日文语言文件中的语句意思差距过大，因此开始根据日文语言文件进行校对。</p>
+<p>使用这个文件可以使RPG Maker MV的界面变成简体中文，并且修正了翻译上的一些问题。<br>]]>
+    
     </summary>
     
-  </entry>
-  
-  <entry>
-    <title><![CDATA[First Post]]></title>
-    <link href="http://trentswd.github.io/2015/04/23/First-Post/"/>
-    <id>http://trentswd.github.io/2015/04/23/First-Post/</id>
-    <published>2015-04-23T01:36:47.000Z</published>
-    <updated>2015-04-23T01:39:56.000Z</updated>
-    <content type="html"><![CDATA[<p>This is the first post of the site. Welcome.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>This is the first post of the site. Welcome.</p>
-]]>
-    </summary>
+      <category term="RPG Maker MV" scheme="http://trentswd.github.io/tags/RPG-Maker-MV/"/>
     
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://trentswd.github.io/2015/04/22/hello-world/"/>
-    <id>http://trentswd.github.io/2015/04/22/hello-world/</id>
-    <published>2015-04-22T06:44:03.000Z</published>
-    <updated>2015-04-22T06:44:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
-    </summary>
+      <category term="发布" scheme="http://trentswd.github.io/categories/%E5%8F%91%E5%B8%83/"/>
     
   </entry>
   
