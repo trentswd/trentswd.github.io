@@ -1,4 +1,5 @@
-$(document).ready(function () {
+//$(document).ready(
+function () {
   var motionIntegrator = {
     queue: [],
     cursor: -1,
@@ -286,4 +287,5 @@ $(document).ready(function () {
 
   window.motionMiddleWares = motionMiddleWares;
   window.motionIntegrator = motionIntegrator;
-});
+}
+//);
