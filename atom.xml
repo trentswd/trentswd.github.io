@@ -18,7 +18,7 @@
     <title><![CDATA[RPG Maker MV 简体中文语言文件]]></title>
     <link href="http://trentswd.github.io/2015/12/01/rpg-makar-mv-zh-cn/"/>
     <id>http://trentswd.github.io/2015/12/01/rpg-makar-mv-zh-cn/</id>
-    <published>2015-12-01T14:31:59.000Z</published>
+    <published>2015-12-01T15:31:59.000Z</published>
     <updated>2015-12-01T16:11:24.019Z</updated>
     <content type="html"><![CDATA[<h1 id="简介">简介</h1><p>RPG Maker MV官方并不支持中文，然而英文版的初版中附带有繁体中文的语言文件。在多语言补丁发布后，切换为繁体中文变成了可能。</p>
 <p>然而官方的繁体中文语言文件和原有的RPG Maker术语差距过大，甚至存在机翻的情况。因此我在使用软件将qm文件繁体转简体后，进行了手工修正。后续发觉英语原文意思和日文语言文件中的语句意思差距过大，因此开始根据日文语言文件进行校对。</p>
