@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://trentswd.github.io/"/>
-  <updated>2015-12-01T17:15:47.561Z</updated>
+  <updated>2015-12-10T18:34:00.000Z</updated>
   <id>http://trentswd.github.io/</id>
   
   <author>
@@ -19,10 +19,9 @@
     <link href="http://trentswd.github.io/2015/12/01/rpg-makar-mv-zh-cn/"/>
     <id>http://trentswd.github.io/2015/12/01/rpg-makar-mv-zh-cn/</id>
     <published>2015-12-01T15:31:59.000Z</published>
-    <updated>2015-12-01T17:15:47.561Z</updated>
-    <content type="html"><![CDATA[<h1 id="简介">简介</h1><p>RPG Maker MV官方并不支持中文，然而英文版的初版中附带有繁体中文的语言文件。在多语言补丁发布后，切换为繁体中文变成了可能。</p>
-<p>然而官方的繁体中文语言文件和原有的RPG Maker术语差距过大，甚至存在机翻的情况。因此我在使用软件将qm文件繁体转简体后，进行了手工修正。后续发觉英语原文意思和日文语言文件中的语句意思差距过大，因此开始根据日文语言文件进行校对。</p>
-<p>使用这个文件可以使RPG Maker MV的界面变成简体中文，并且修正了翻译上的一些问题。<br><a id="more"></a></p>
+    <updated>2015-12-10T18:34:00.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="简介">简介</h1><p>使用这个补丁可以使RPG Maker MV的界面变成简体中文，并且修正了翻译上的一些问题。文本来源为原始版本自带繁中语言文件，英语原文和日文语言文件参考进行校对。<br><a id="more"></a></p>
+<h1 id="目前进度">目前进度</h1><p>目前已经根据日文文本校对完所有的对话框。（234/234）</p>
 <h1 id="正版可以用吗？">正版可以用吗？</h1><p>在Steam版上测试通过。</p>
 <h1 id="发现错误？">发现错误？</h1><p>请在评论中提出，如果确认有问题，将在下个版本中修改。</p>
 <h1 id="安装方法">安装方法</h1><ol>
@@ -30,10 +29,15 @@
 <li>下载最新版，将压缩包的内容解压到RPG Maker MV的文件夹中，若有需要覆盖的文件，直接覆盖。</li>
 <li>打开RPG Maker MV，测试是否成功。</li>
 </ol>
-<h1 id="最新版下载">最新版下载</h1><p>下载链接：【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v1.3.zip">链接</a>】</p>
+<h1 id="最新版下载">最新版下载</h1><p>下载链接：【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v2.0_pre.zip">链接</a>】</p>
 <h1 id="更新日志">更新日志</h1><ul>
+<li>11/9 更新 v2.0 pre 【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v2.0_pre.zip">链接</a>】<ul>
+<li>根据日文文本校对完所有对话框（234/234）</li>
+<li>修正之前的一些用语使前后一致</li>
+</ul>
+</li>
 <li>11/9 更新 v1.3 【<a href="/media/mv_zhCN/RPG_Maker_MV_zh-CN_v1.3.zip">链接</a>】<ul>
-<li>受到上次启发，拿日文的qm文件来做比较，发现英文就是临时工翻译的，<br>所以根据日文的qm一个一个来校对了</li>
+<li>受到上次启发，拿日文的qm文件来做比较，发现英文就是临时工翻译的，所以根据日文的qm一个一个来校对了</li>
 <li>修改了攻击、普通攻击、攻击力等部分</li>
 <li>修改了回合的机翻等部分</li>
 <li>修改行走图、战斗图等部分</li>
@@ -64,9 +68,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="简介">简介</h1><p>RPG Maker MV官方并不支持中文，然而英文版的初版中附带有繁体中文的语言文件。在多语言补丁发布后，切换为繁体中文变成了可能。</p>
-<p>然而官方的繁体中文语言文件和原有的RPG Maker术语差距过大，甚至存在机翻的情况。因此我在使用软件将qm文件繁体转简体后，进行了手工修正。后续发觉英语原文意思和日文语言文件中的语句意思差距过大，因此开始根据日文语言文件进行校对。</p>
-<p>使用这个文件可以使RPG Maker MV的界面变成简体中文，并且修正了翻译上的一些问题。<br>]]>
+    <![CDATA[<h1 id="简介">简介</h1><p>使用这个补丁可以使RPG Maker MV的界面变成简体中文，并且修正了翻译上的一些问题。文本来源为原始版本自带繁中语言文件，英语原文和日文语言文件参考进行校对。<br>]]>
     
     </summary>
     
